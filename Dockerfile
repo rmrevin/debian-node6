@@ -36,7 +36,7 @@ RUN set -xe \
     && gosu nobody true
 
 RUN set -xe \
- && npm install -g gulp webpack bower phantomjs
+ && npm install -g gulp webpack yarn bower phantomjs
 
 COPY supervisor.d/ /etc/supervisor/
 
